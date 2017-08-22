@@ -22,7 +22,7 @@ Yarn caches every package it downloads so it never needs to again. It also paral
 |npm install `pkg-name` --save-dev| yarn add `pkg-name` --dev|  
 |npm install `pkg-name` --peer| yarn add `pkg-name`--peer|  
 |npm install `pkg-name` --optional| yarn add --optional|  
-|npm install -g `pkg-name`| yarn add global `pkg-name`|
+|npm install -g `pkg-name`| yarn global add `pkg-name`|
 |npm update | yarn upgrade| Note: It's called **upgrade** in yarn|
 |npm uninstall `pkg-name`| yarn remove `pkg-name`|
 |npm run `script-name`| yarn run `script-name`|
